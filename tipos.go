@@ -1,10 +1,10 @@
-package main
+package tipos
 
 import (
 	"fmt"
 )
 
-func main() {
+func tipos() {
 	// bool (true/false)
 	fmt.Printf("Type: %T - Value %v\n", true, true)
 
