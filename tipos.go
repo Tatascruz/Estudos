@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func mostrarTipos() {
 	// bool (true/false)
 	fmt.Printf("Type: %T - Value %v\n", true, true)
 
