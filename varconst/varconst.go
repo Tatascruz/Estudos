@@ -1,4 +1,4 @@
-package main
+package varconst
 
 import "fmt"
 

@@ -1,4 +1,4 @@
-package main
+package zerovalues
 
 import "fmt"
 
@@ -12,8 +12,4 @@ func mostrarZeroValues() {
 	fmt.Printf("Float: %v\n", f)
 	fmt.Printf("Bool: %v\n", b)
 	fmt.Printf("String: %v\n", s)
-}
-
-func main() {
-	mostrarZeroValues()
 }
