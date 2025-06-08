@@ -1,10 +1,9 @@
-package main
+package funcoes
 
 import "fmt"
 
-func main() {
-	somaDosValores := soma(42, 13)
-	fmt.Println(somaDosValores)
+func Saudacao(Tata string) {
+	fmt.Printf("Olá, %s! Bem-vinda ao mundo Go!\n", Tata)
 
 	nome, sobrenome := printaNomeCompleto("STEPH", "CARDOSO")
 	fmt.Println(nome)

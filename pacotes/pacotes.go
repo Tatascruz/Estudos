@@ -5,7 +5,7 @@ import (
 	steph "strings"
 )
 
-func mostrarPacotes() {
+func MostrarPacotes() {
 	fmt.Println("Hello, world!")
 
 	// sem alterar o nome do pacote,

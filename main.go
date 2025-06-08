@@ -1,9 +1,15 @@
 package main
 
 import (
-	"fmt"
+	"estudos/funcoes"
+	"estudos/listas"
+	"estudos/pacotes"
+	"estudos/tipos"
 )
 
 func main() {
-	fmt.Println("Hello, world!")
+	listas.MostrarArray()
+	tipos.MostrarTipos()
+	funcoes.Saudacao("Tata")
+	pacotes.MostrarPacotes()
 }
