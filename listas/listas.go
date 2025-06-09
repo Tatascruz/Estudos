@@ -34,7 +34,6 @@ func MostrarArray() {
 	fmt.Println(slice[2])
 	fmt.Println(slice[3])
 	fmt.Println(slice[4])
-	fmt.Println(slice[5])
 
 	numPares := []int{2, 4, 6, 8, 10, 12}
 	fmt.Println(numPares)
