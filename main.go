@@ -5,6 +5,7 @@ import (
 	"estudos/listas"
 	"estudos/maps"
 	"estudos/pacotes"
+	"estudos/structs"
 	"estudos/tipos"
 )
 
@@ -14,4 +15,6 @@ func main() {
 	funcoes.Saudacao("Tata")
 	pacotes.MostrarPacotes()
 	maps.MostrarMaps()
+	structs.MostrarStructs()
+
 }
