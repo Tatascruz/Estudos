@@ -2,6 +2,7 @@ package main
 
 import (
 	"estudos/funcoes"
+	ifelse "estudos/if-else"
 	"estudos/listas"
 	"estudos/maps"
 	"estudos/pacotes"
@@ -16,5 +17,6 @@ func main() {
 	pacotes.MostrarPacotes()
 	maps.MostrarMaps()
 	structs.MostrarStructs()
+	ifelse.MostraIfElse()
 
 }
