@@ -7,6 +7,7 @@ import (
 	"estudos/maps"
 	"estudos/pacotes"
 	"estudos/structs"
+	"estudos/switchcase"
 	"estudos/tipos"
 )
 
@@ -18,5 +19,6 @@ func main() {
 	maps.MostrarMaps()
 	structs.MostrarStructs()
 	ifelse.MostraIfElse()
+	switchcase.MostarSwitchcase()
 
 }
