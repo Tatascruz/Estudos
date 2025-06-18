@@ -4,6 +4,7 @@ import (
 	"estudos/funcoes"
 	ifelse "estudos/if-else"
 	"estudos/listas"
+	"estudos/loops"
 	"estudos/maps"
 	"estudos/pacotes"
 	"estudos/structs"
@@ -20,5 +21,6 @@ func main() {
 	structs.MostrarStructs()
 	ifelse.MostraIfElse()
 	switchcase.MostarSwitchcase()
+	loops.MostrarLoops()
 
 }
